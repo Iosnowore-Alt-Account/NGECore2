@@ -1,8 +1,6 @@
 import sys
 
 def setup(core, object):
-	object.setStringAttribute('condition', '40000/40000')
-	object.setIntAttribute('volume', 1)
 	object.setStringAttribute('armor_category', '@obj_attr_n:armor_assault')
 	object.setIntAttribute('cat_armor_standard_protection.kinetic', 6608)
 	object.setIntAttribute('cat_armor_standard_protection.energy', 4608)
