@@ -101,7 +101,7 @@ public class DevService implements INetworkDispatch {
 					suiOptions.put((long) 130, "Vehicle Deeds");
 					suiOptions.put((long) 131, "Pet Deeds");
 					suiOptions.put((long) 121, "Sandbox City");
-					if(creature.getPlayerObject().getProfession().equals("trader_0a") || creature.getPlayerObject().getProfession().equals("trader_0b") || creature.getPlayerObject().getProfession().equals("trader_0c") || creature.getPlayerObject().getProfession().equals("trader_0d"))
+				(creature.getPlayerObject().getProfession()) { case "trade_0a": case "trader_0b": case "trader_0c": case "trader_0d"): System.out.println("Congratulations, you are a trader"); }
 						suiOptions.put((long) 177, "REing");
 				}
 
